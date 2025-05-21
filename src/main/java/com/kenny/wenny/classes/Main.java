@@ -1,6 +1,5 @@
 package com.kenny.wenny.classes;
 
-import com.kenny.wenny.classes.model.academic.Student;
 import com.kenny.wenny.classes.model.geometry.Rectangle;
 import com.kenny.wenny.classes.model.geometry.Square;
 
