@@ -5,9 +5,7 @@ import com.kenny.wenny.classes.model.geometry.Square;
 
 public class Main {
     public static void main(String[] args) {
-        var rectangle = new Rectangle(3, 4);
-        System.out.println("Area of the rectangle is " + rectangle.getArea());
-        var square = new Square(5);
-        System.out.println("Area of the square is " + square.getArea());
+        System.out.println(Rectangle.name);
+        System.out.println(Rectangle.getName());
     }
 }
