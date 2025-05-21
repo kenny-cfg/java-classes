@@ -1,18 +1,9 @@
 package com.kenny.wenny.classes.model;
 
 public class Student {
-    private String studentOf;
+    private String studentOf = "CFG";
 
     // Default constructor: it has no arguments
-    public Student() {
-        this("CFG");
-    }
-
-    // Constructor overload
-    public Student(String studentOf) {
-        this.studentOf = studentOf;
-    }
-
     public String getStudentOf() {
         return studentOf;
     }
