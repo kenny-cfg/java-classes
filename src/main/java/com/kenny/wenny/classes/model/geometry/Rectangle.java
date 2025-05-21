@@ -1,6 +1,6 @@
 package com.kenny.wenny.classes.model.geometry;
 
-public class Rectangle {
+public class Rectangle extends Shape {
     private final double width;
     private final double height;
 
@@ -17,6 +17,7 @@ public class Rectangle {
         return height;
     }
 
+    @Override // Optional, but generally good practice
     public double getArea() {
         return width * height;
     }
