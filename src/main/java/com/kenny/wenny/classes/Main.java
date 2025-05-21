@@ -4,8 +4,11 @@ import com.kenny.wenny.classes.model.Student;
 
 public class Main {
     public static void main(String[] args) {
-        var studentA = new Student();
-        var studentB = new Student();
-        var studentC = new Student();
+        var studentA = new Student("CFG");
+        var studentB = new Student("Oxford");
+        var studentC = new Student("Hull");
+        System.out.println(studentA.getStudentOf());
+        System.out.println(studentB.getStudentOf());
+        System.out.println(studentC.getStudentOf());
     }
 }
