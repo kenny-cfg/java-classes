@@ -1,4 +1,4 @@
-package com.kenny.wenny.classes;
+package com.kenny.wenny.classes.model;
 
 public class Student {
     private String studentOf = "CFG";
@@ -8,6 +8,7 @@ public class Student {
     }
 
     public void setStudentOf(String studentOf) {
+        System.out.println("Setting studentOf to " + studentOf);
         this.studentOf = studentOf;
     }
 }
