@@ -1,6 +1,6 @@
 package com.kenny.wenny.classes;
 
-import com.kenny.wenny.classes.model.Student;
+import com.kenny.wenny.classes.model.academic.Student;
 
 public class Main {
     public static void main(String[] args) {

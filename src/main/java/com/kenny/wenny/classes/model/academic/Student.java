@@ -1,4 +1,4 @@
-package com.kenny.wenny.classes.model;
+package com.kenny.wenny.classes.model.academic;
 
 public class Student {
     // This `final` makes the `name` attribute immutable
