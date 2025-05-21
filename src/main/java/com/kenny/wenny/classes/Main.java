@@ -5,7 +5,6 @@ import com.kenny.wenny.classes.model.geometry.Square;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Rectangle.name);
-        System.out.println(Rectangle.getName());
+        Exercise5.getPersonType("Kenny", 60);
     }
 }
